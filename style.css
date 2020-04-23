@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+/* ------------ Body style ************/
+html {
+	overflow-x:hidden;
+}
+body {
+	overflow-x: hidden;
+	font-family: "Lato", sans-serif;
+	color: #666666;
+	font-size: 1rem;
+	font-weight: 600;
+	
+	
+
+}
+
+/*** Global Black background *****/
+
+.black {
+	background-color: black;
+}
+
+.shead {
+	color: #111;
+}
+
+/*** Global Black background *****/
+
+
+/***** Global line-height*****/
+
+.global_lh {
+    line-height: 2rem;
+}
+
+/***** global line-height ends here****/
+
+/* ------------ Body style ending************/
+
+/* ------------ Navigation (You can add your own style to the navbar here ************/
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem; /* 1 rem is 16px*/
+	letter-spacing: 0.1rem;
+	background-color: black !important;
+}
+
+/* ------------ Navigation style ending************/
+
+/* ------------ style logo here************/
+.navbar-brand {
+}
+
+/* ------------ style logo ends here************/
+
+/* ------------ style nav items here************/
+.navbar-nav li {
+	padding: 0.2rem;
+}
+/* ------------ style nav items ends here************/
+
+/* ------------ make navitems white & apply active colour************/
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;
+	padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgb(255, 103, 2);
+}
+
+/* ------------ make navitems white ends here************/
+
+/* bootstrap button */
+.btn-lg {
+	border-width: medium;
+	border-radius: 0;
+	padding: 0.6rem 1.3rem; /* .6 rem vertical  1.3rem horizontal */
+	font-size: 1.1 rem;
+}
+
+/* bootstrap button ends here */
+
+/*********** showcase box starts here ***************/
+.box1 {
+	background-color: rgb(255, 103, 2);
+}
+
+/*********** showcase starts here ***************/
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+/********* Showcase **********/
+.showcase {
+	margin-bottom: 100px;
+}
+
+/********* Showcase ends here**********/
+
+/*********** Carousel style *********/
+
+.carousel-item {
+	height: auto;
+}
+
+.carousel-item img {
+	width: 100%;
+}
+
+.carousel-caption {
+	width: 100%;
+	position: absolute;
+	top: 38%;
+	left: 1%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+}
+
+.carousel-caption h1 {
+	color: white;
+	font-weight: 700;
+	font-size: 3.2rem; /***** 60px*******/
+	letter-spacing: 0.1rem;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+	padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+	color: white;
+	font-weight: 700;
+	font-size: 2rem;
+	text-shadow: 0.1rem 0.1rem 0.5rem black;
+	padding-bottom: 1.6rem;
+}
+
+h2 span {
+	color: rgb(255, 103, 2);
+}
+
+.carousel-caption p {
+	color: white;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+/*********** Carousel style ends here*********/
+
+/* newsletter starts here*/
+
+#about {
+	margin-bottom: 100px;
+	background-image: url(img/letterbg.jpg);
+	background-size: cover;
+}
+
+#about span {
+	color:rgb(255, 103, 2);
+}
+
+
+
+.newsbtn {
+	background-color: rgb(255, 103, 2);
+	border: 2px solid rgb(255, 103, 2);
+	color: #ffffff;
+	
+	
+}
+/* newsletter endss here*/
+
+/**** Services*****/
+.narrow {
+	width: 75%;
+	margin: 1.5rem auto;
+}
+
+.narrowserv {
+	width: 75%;
+	margin: 1.5rem auto;
+}
+
+.heading-underline {
+	background-color: rgb(255, 103, 2);
+	width: 5rem;
+	height: 0.2rem;
+	margin: 0 auto 60px;
+}
+
+/* Font awesome icon color *****/
+.iconcolor {
+	color: rgb(255, 103, 2);
+}
+
+/* Font awesome icon color ends here *****/
+
+/* heading for products starts here */
+.heading-underline2 {
+	background-color: rgb(255, 103, 2);
+	width: 4rem;
+	height: 0.2rem;
+	margin: 0 0 60px;
+}
+/* heading for products ends  here */
+
+/*  ButtonS starts here */
+.my_button {
+	background-color: rgb(255, 103, 2);
+	color: white;
+	border: 2px solid rgb(255, 103, 2);
+	font-weight: 700;
+}
+
+.button-color {
+	background-color: rgb(255, 103, 2);
+	border: 2px solid rgb(255, 103, 2);
+	color: #ffffff;
+	position: relative;
+	top: 0;
+	left: 30%;
+}
+
+/* Global Button ends here */
+
+/****** inner starts here ******/
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+/****** inner ends here******/
+
+/********** Extra padding and margin *******/
+
+.space {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+/* Extra padding and margin ends here *******/
+
+
+
+/*** Statement section starts here *******/
+#statement  h2{
+	text-align: justify;
+
+}
+#statement  p{
+	text-align: justify;
+
+}
+
+/**** Statement section ends here*****/
+
+
+
+
+
+
+
+
+
+
+/******** products section starts here ****/
+#products h4{
+	text-align: center;
+}
+
+
+
+#products p {
+	text-align: justify;
+	margin: 0;
+}
+
+/***** Products section ends here ******/
+
+
+
+
+
+/*Clients section starts from here ******/
+
+#client{
+background-image: url(img/background2.png);
+background-size: cover;
+background-attachment: fixed;
+background-position:center;
+}
+
+#client span {
+	color: rgb(255, 103, 2);
+}
+
+.page-title span {
+	color: rgb(255, 103, 2);
+}
+
+.heading-underline2 {
+	background-color: #fff;
+	width: 5rem;
+	height: 0.2rem;
+	margin: 5px auto 60px;
+}
+
+#active2 {
+	background-color: rgb(255, 103, 2);
+}
+.client-desc {
+	text-align: center;
+	font-style: italic;
+	font-size:20px;
+	
+}
+
+#client_img{
+	width: 20%;
+	padding: 1px;
+	border: solid 2px rgb(255, 103, 2) ;
+	margin-top: 20px;
+}
+
+.client-name {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.client-name span {
+	font-weight: bold;
+	color: rgb(255, 103, 2);
+}
+/*Clients section ends here ******/
+
+/******** team section starts here ********/
+.card {
+	margin: 2rem;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 20vw;
+	object-fit: cover;
+}
+
+#team span {
+	color: rgb(255, 103, 2);
+}
+
+
+
+/******* team section ends here *******/
+
+
+/****** Career Starts here*******/
+#careers {
+	border:1px dashed rgb(255, 103, 2);
+	margin: 100px;
+}
+
+ form {
+	padding: 5%;
+}
+
+label {
+	padding: 10px;
+	font-size: 18px;
+}
+
+form p {
+	font-size:18px;
+}
+
+/***Career ends here *****/
+
+/***** Footer starts here ********/
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 2 rem 0 2rem;
+	margin-top: 1rem;
+}
+/***** Footer ends here ********/
+
+footer img {
+	height: 3rem;
+	margin: 1.5rem /* top and bottom*/ 0; /*left and right */
+}
+
+footer a {
+	color: white;
+}
+
+footer svg.svg-inline--fa {
+	font-size: 1.6rem;
+	margin: 1.2rem 0.5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+	color: rgb(255, 103, 2) !important;
+}
+
+hr.socket {
+	width: 100%;
+	border-top: 0.2rem solid rgb(255, 103, 2);
+	margin-top: 3rem;
+}
+
+
+
+/*****---- Bootstrap Modal Starts here ************/
+
+.img-responsive{
+	margin: 8px;
+	transition: 0.5s ease;
+}	
+
+.img-responsive:hover{
+	box-shadow: 4px 5px 5px 4px #888888;
+	border-radius: 10px;
+}
+
+.heading{
+	text-align: center;
+	font-weight: bold;
+
+	font-size: 35px;
+   
+}
+
+.btn-info{
+	transition: 0.5s ease-in-out;
+	letter-spacing: 2px;
+	background-color: rgb(255, 103, 2);
+	border: 2px solid rgb(255, 103, 2);
+	font-size: 15px;
+}
+p{
+	
+	font-size: 16px;
+	text-align: center;
+}
+
+
+/*******  Bootstrap modal ends here ********/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------- Media Queries ------*/
+@media (max-width: 768px) {
+	/*------- Navbar brand ------*/
+	.navbar img {
+		width: 50%;
+	}
+
+	/*------- Navbar brand ends here ------*/
+
+	/*------ Navbar starts here  ------*/
+	.navbar {
+		text-transform: uppercase;
+		
+		font-size: .9rem; /* 1 rem is 16px*/
+		letter-spacing: 0.1rem;
+        background-color: black !important;
+        
+	}
+
+	/*----- Navbar ends here -----*/
+
+	/* ------------ style nav items here************/
+	.navbar-nav li {
+		padding: 0;
+	}
+	/* ------------ style nav items ends here************/
+
+/*style .nav-item here */
+.nav-item {
+    padding: 0;
+}
+/*style .nav-item ends here */
+
+
+.navbar-dark .navbar-nav .nav-link {
+    
+    padding-top: 0.2rem;
+}
+
+
+	/*** Carousel queries starts here******/
+
+	.carousel-caption {
+		width: 100%;
+		position: absolute;
+		top: 30%;
+		left: 1%;
+		z-index: 1;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	.carousel-caption h1 {
+		color: white;
+
+		font-size: 20px; /***** 60px*******/
+		letter-spacing: 0.1rem;
+
+		padding-bottom: 2px;
+	}
+
+	.carousel-caption h3 {
+		color: white;
+
+		font-size: 14px;
+
+		padding: 2px;
+	}
+
+	.carousel-caption p {
+		color: white;
+
+		font-size: 20px;
+	}
+
+	/* bootstrap button */
+	.btn-lg {
+		border-width: medium;
+		border-radius: 0;
+		padding: 4px 2px; /* .6 rem vertical  1.3rem horizontal */
+		font-size: 14px;
+	}
+
+	/* bootstrap button ends here */
+
+	/*** Carousel queries ends here ******/
+
+	/********* Showcase **********/
+	.showcase {
+		margin-bottom: 20px;
+		margin-top: 5px;
+	}
+
+	.showcase h3 {
+		padding-top: 5px !important;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.showcase p {
+		padding: 2px !important;
+		font-size: 14px !important;
+		font-weight: 500 !important;
+	}
+	/********* Showcase ends here**********/
+
+	/* Vision and mission starts here ********/
+	#statement {
+		width: 90%;
+	}
+	#statement h2 {
+		font-size: 18px !important;
+		text-align: center;
+		font-weight: 700;
+		padding: 5px;
+	}
+
+	#statement p {
+		font-size: 16px !important;
+		text-align: justify;
+		font-weight: 500;
+		padding: 0;
+	}
+
+	/* Vision and mission ends here *******?
+
+
+/***** About Starts here *******/
+
+	#about {
+		margin-bottom: 10px;
+	}
+
+	#about p {
+		text-align:justify;
+	}
+
+	#about h2 {
+		font-size: 18px;
+		line-height: 1.8rem;
+	}
+
+	#about h3 {
+		font-size: 18px;
+		line-height: 1.8rem;
+		color: rgb(255, 103, 2);
+	}
+
+	#about h5 {
+		font-size: 14px;
+		padding-top: 5px !important;
+		line-height: 1.8rem;
+		margin-top: 0 !important;
+	}
+
+
+
+	/***** About ends here ******/
+
+	/*------- Client section starts here------*/
+	.card-img-top {
+		width: 100%;
+		height: 40vw;
+		object-fit: cover;
+	}
+
+	/*------- Client section ends here------*/
+
+	/***** Services section starts here *****/
+	#services {
+		margin: 20px 0;
+	}
+	#services h3 {
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 0 !important;
+	}
+
+	.services {
+		padding: 20px !important;
+		margin: 0 !important;
+	}
+
+	.services p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	.narrowserv {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.iconcolor {
+		font-size: 35px;
+	}
+
+	.services h4 {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.services {
+		padding-top: 0;
+	}
+
+	.jumbotron {
+		margin: 0;
+	}
+	/***** Services section ends here *****/
+
+	/****** Products start here ******/
+	#products h4 {
+		text-align: center;
+	}
+
+	#products p {
+		text-align: justify;
+		margin: 10%;
+	}
+
+	.procard {
+		margin-bottom: 0;
+	}
+
+	/******* Clients starts here*********/
+
+	#clients h3 {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	#clients h4 {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	#client_img{
+		width: 40%;
+
+		
+	}
+
+	/******* Clients end here ******/
+
+/****** Career Starts here*******/
+#careers {
+	border:1px dashed rgb(255, 103, 2);
+	margin: 0;
+}
+
+ form {
+	padding: 5%;
+}
+
+/***Career ends here *****/
+
+/*------- Media Queries ------*/
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
